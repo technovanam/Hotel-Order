@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     autonumber
     actor O as 🏨 Owner/Employee
@@ -42,3 +43,4 @@ sequenceDiagram
     NE->>FS: Update all items in category (isAvailable: false)
     FS-->>NE: Updated
     NE-->>FE: Updated category
+```

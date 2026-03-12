@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     A([Any Firestore read or write request]) --> B{Is it via Firebase Admin SDK — NestJS Backend?}
     B -->|Yes — Admin SDK| C[Bypasses all security rules — full access]
@@ -41,3 +42,4 @@ flowchart TD
     style V fill:#4B1515,color:#ff6b6b,stroke:#ff6b6b
     style X fill:#4B1515,color:#ff6b6b,stroke:#ff6b6b
     style AB fill:#4B1515,color:#ff6b6b,stroke:#ff6b6b
+```

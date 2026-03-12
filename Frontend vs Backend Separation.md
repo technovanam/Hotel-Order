@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     subgraph FE["🖥️ Frontend — Next.js / Browser"]
         A1[Firebase Auth SDK — OTP + Email Login]
@@ -50,3 +51,4 @@ flowchart TD
     style DB fill:#2d1a0d,stroke:#F59E0B,color:#F59E0B
     style FSS fill:#2d1a0d,stroke:#F59E0B,color:#F59E0B
     style FAU fill:#2d1a0d,stroke:#F59E0B,color:#F59E0B
+```

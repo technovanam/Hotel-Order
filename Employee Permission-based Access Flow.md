@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     A([Employee logs in]) --> B[NestJS verifies ID Token]
     B --> C[Fetch users uid → role: employee]
@@ -37,3 +38,4 @@ flowchart TD
     style Z fill:#4B1515,color:#ff6b6b,stroke:#ff6b6b
     style AA fill:#0f2d1f,color:#10B981,stroke:#10B981
     style AB fill:#0d1f2d,color:#38BDF8,stroke:#38BDF8
+```

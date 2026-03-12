@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     autonumber
     actor O as 🏨 Hotel Owner
@@ -46,3 +47,4 @@ sequenceDiagram
     BQ-->>NE: CSV file URL (Firebase Storage)
     NE-->>FE: { downloadUrl }
     FE->>FE: Trigger file download
+```

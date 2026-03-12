@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     autonumber
     actor S as 🎓 Student
@@ -65,3 +66,4 @@ sequenceDiagram
             FE->>FE: Redirect → /(student)/orders/:orderId
         end
     end
+```

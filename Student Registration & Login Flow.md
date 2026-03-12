@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     autonumber
     actor S as 🎓 Student
@@ -39,3 +40,4 @@ sequenceDiagram
         FE->>FE: Store user in Zustand
         FE->>FE: Redirect → /(student)/home
     end
+```

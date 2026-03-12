@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     A([Student taps Place Order]) --> B[Frontend calls getIdToken — Firebase Auth]
     B --> C[POST /api/orders sent with Bearer token]
@@ -30,3 +31,4 @@ flowchart TD
     style K1 fill:#4B1515,color:#ff6b6b,stroke:#ff6b6b
     style M1 fill:#4B1515,color:#ff6b6b,stroke:#ff6b6b
     style V fill:#0f2d1f,color:#10B981,stroke:#10B981
+```

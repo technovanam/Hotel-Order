@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     autonumber
     actor A as 👑 Admin
@@ -55,3 +56,5 @@ sequenceDiagram
     BQ->>FC: messaging().sendMulticast() to all tokens
     FC-->>FE: Push notifications delivered to all target users
     NE-->>FE: { sent: count }
+
+```

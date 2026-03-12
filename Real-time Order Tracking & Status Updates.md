@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     autonumber
     actor S as 🎓 Student
@@ -37,6 +38,7 @@ sequenceDiagram
 
     HO->>FE_H: Taps Mark as Preparing
     FE_H->>NE: PATCH /api/orders/:id/status (status: preparing)
+
     NE->>FS: Update orders/{id} (status:preparing)
     FS-->>FE_S: onSnapshot fires
     FE_S->>FE_S: Update status bar — 🍳 Preparing
@@ -58,3 +60,4 @@ sequenceDiagram
     FE_S->>FE_S: Update status bar — ✅ Delivered
     FE_S->>FE_S: Show Rate & Review button
     NE->>BQ: Push FCM job → student: bill ready
+```

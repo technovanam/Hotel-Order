@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     autonumber
     actor O as 🏨 Hotel Owner
@@ -49,3 +50,4 @@ sequenceDiagram
     FS-->>NE: User + Hotel data
     NE-->>FE: { user, hotel }
     FE->>FE: Redirect → /(hotel)/dashboard
+```

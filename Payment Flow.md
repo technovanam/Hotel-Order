@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     autonumber
     actor S as 🎓 Student
@@ -36,3 +37,4 @@ sequenceDiagram
         BQ->>FC: messaging().send() to student
         FC-->>S: 🔔 Payment confirmed — View your digital bill
     end
+```

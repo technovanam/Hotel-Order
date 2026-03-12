@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
     subgraph Browser["🌐 Browser / PWA"]
         A[User grants notification permission]
@@ -39,3 +40,4 @@ flowchart LR
     style Queue fill:#1a1a0d,stroke:#F59E0B,color:#F59E0B
     style Firebase fill:#2d0d0d,stroke:#F43F5E,color:#F43F5E
     style Device fill:#0d2d1a,stroke:#10B981,color:#10B981
+```
