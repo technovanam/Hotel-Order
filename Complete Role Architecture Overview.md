@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     subgraph Roles["👥 Roles"]
         AD(["👑 Admin"])
@@ -99,3 +100,4 @@ flowchart TD
     style API fill:#1a0d2d,stroke:#818CF8,color:#818CF8
     style DB fill:#2d1a0d,stroke:#F59E0B,color:#F59E0B
     style Infra fill:#0d2d1a,stroke:#10B981,color:#10B981
+```
